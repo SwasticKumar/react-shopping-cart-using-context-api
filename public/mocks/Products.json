@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Xiaomi 13 Pro",
+      "price": " ₹79,999",
+      "originalprice": " ₹89,999",
+      "discount": "11% off",
+      "brand": "Xiaomi",
+      "category": "smartphones",
+      "images": ["./image/sm/13-pro.jpg"]
+    },
+    {
+      "id": 2,
+      "title": "Xiaomi 12 Pro",
+      "price": " ₹41,999",
+      "discount": "47% off",
+      "originalprice": " ₹79,999",
+      "brand": "Xiaomi",
+      "category": "smartphones",
+
+      "images": ["./image/sm/12-pro.jpg"]
+    },
+    {
+      "id": 3,
+      "title": "Xiaomi 11i 5G",
+      "price": " ₹18,999",
+      "discount": "40% off",
+      "originalprice": " ₹31,999",
+      "discountPercentage": 15.46,
+      "brand": "Xiaomi",
+      "category": "smartphones",
+      "images": ["./image/sm/11i.webp"]
+    },
+    {
+      "id": 4,
+      "title": "Xiaomi 11i Pro 5G",
+      "price": " ₹27,999",
+      "discount": "44% off",
+      "originalprice": " ₹49,999",
+      "brand": "Xiaomi",
+      "category": "smartphones",
+      "images": ["./image/sm/11i-pro.jpg"]
+    },
+    {
+      "id": 5,
+      "title": "Redmi Smart Fire Tv 32inch",
+      "price": " ₹11,499",
+      "discount": "54% off",
+      "originalprice": " ₹24,999",
+      "brand": "Xiaomi",
+      "category": "smarttv",
+      "images": ["./image/tv/tv4.jpg"]
+    },
+    {
+      "id": 6,
+      "title": "Xiaomi Smart Tv (32inch)",
+      "price": " ₹12,499",
+      "discount": "48% off",
+      "originalprice": " ₹24,999",
+      "brand": "Xiaomi",
+      "category": "smarttv",
+      "images": ["./image/tv/tv2.jpg"]
+    },
+    {
+      "id": 7,
+      "title": "Xiaomi Smart Tv (43inch)",
+      "price": " ₹32,999",
+      "discount": "34% off",
+      "originalprice": " ₹49,999",
+      "brand": "Xiaomi",
+      "category": "smarttv",
+      "images": ["./image/tv/tv1.jpg"]
+    },
+    {
+      "id": 8,
+      "title": "Xiaomi OLED Vision TV 55",
+      "price": " ₹84,999",
+      "discount": "57% off",
+      "originalprice": " ₹1,99,999",
+      "brand": "Xiaomi",
+      "category": "smarttv",
+      "images": ["./image/tv/tv3.jpg"]
+    },
+    {
+      "id": 9,
+      "title": "Redmi 2 Lite",
+      "price": " ₹2,199",
+      "discount": "72% off",
+      "originalprice": " ₹7,999",
+      "brand": "Xiaomi",
+      "category": "smartwatch",
+      "images": ["./image/sd/w1.jpg"]
+    },
+    {
+      "id": 10,
+      "title": "Redmi Sports",
+      "price": " ₹1,999",
+      "discount": "80% off",
+      "originalprice": " ₹5,999",
+      "brand": "Xiaomi",
+      "category": "ear buds",
+      "images": ["./image/sd/w5.png"]
+    },
+    {
+      "id": 11,
+      "title": "Mi Smart Band 5",
+      "price": " ₹2,499",
+      "discount": "82% off",
+      "originalprice": " ₹8,999",
+      "brand": "Xiaomi",
+      "category": "smartwatch",
+      "images": ["./image/sd/w3.png"]
+    },
+    {
+      "id": 12,
+      "title": "Mi Smart Band 7",
+      "price": " ₹6,499",
+      "discount": "19% off",
+      "originalprice": " ₹7,499",
+      "brand": "Xiaomi",
+      "category": "ear buds",
+      "images": ["./image/sd/w4.png"]
+    },
+    {
+      "id": 13,
+      "title": "Xiaomi 3 Star Wars",
+      "price": " ₹5,999",
+      "discount": "52% off",
+      "originalprice": " ₹11,499",
+      "brand": "Xiaomi",
+      "category": "ear buds",
+      "images": ["./image/sd/hp1.png"]
+    },
+    {
+      "id": 14,
+      "title": "Redmi Buds 4 Active",
+      "price": " ₹1,399",
+      "discount": "53% off",
+      "originalprice": " ₹2,999",
+      "brand": "Xiaomi",
+      "category": "ear buds",
+      "images": ["./image/sd/hp3.webp"]
+    },
+    {
+      "id": 15,
+      "title": "Redmi Buds Essential",
+      "price": " ₹4,999",
+      "discount": "50% off",
+      "originalprice": " ₹9,999",
+      "brand": "Xiaomi",
+      "category": "ear buds",
+      "images": ["./image/sd/hp2.jpg"]
+    }
+   
+  ]
+}

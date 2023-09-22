@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+}
+
+
+/* NAVBAR */
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(33, 79, 192, 0.59);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+  border: 1px solid rgba(33, 79, 192, 0.31);
+  height: 80px;
+  margin-top: 0;
+
+  .nav > li {
+    color: white;
+  }
+  .nav > li:hover {
+    color: rgb(224, 163, 64);
+  }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+html {
+  width: 100%;
+  height: 100vh;
+}
+.fa {
+  margin-left: 7px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.products {
+  width: 280px;
+  /* min-height: 500px; */
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.productDesc {
+ font:normal;
+}
+.products:hover {
+  box-shadow: 0 8px 16px rgba(220, 89, 89, 0.6);
+}
+
+.productDesc span {
+  display: block;
+  margin-bottom: 5px;
+}
+.productDesc span b {
+  margin-right: 5px;
+}
+/* Add to cart  */
+.add {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  width: fit-content;
+  border-radius: 7px;
+  padding: 6px 10px;
+ margin-left: 5rem;
+  cursor: pointer;
+;
+  transition: background-color 0.3s ease;
+}
+.add:hover {
+  background-color: #777;
+}
+
+/* Remove from cart */
+.remove {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  width: fit-content;
+  border-radius: 7px;
+  padding: 6px 10px;
+ margin-left: 4rem;
+  cursor: pointer;
+;
+  transition: background-color 0.3s ease;
+}
+.remove:hover {
+  background-color: #222;
+}
+
+
+.NoItems {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 200px;
+}
+.Name {
+  font-weight: 700;
+  color: rgba(25, 38, 220, 0.886);
+}
+.text-center {
+  font-weight: 400;
+  font-style: oblique;
+}
+.footer {
+  position: fixed;
+}
+.quantity-display {
+  padding: 0px 20px 0px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+/* .button1 { */
+  /* padding: 3px;
+  padding-left: 20px;
+  padding-right: 8px; */
+  /* border: none;
+  text-align: center;
+  background-color: #888;
+  color: #fff;
+  border-radius: 5px;
+} */
+
+
+.button-container {
+  display: flex;
+  margin-bottom: 2px;
+}
+.Total-price {
+  margin-right: auto;
+}
+.cart-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* ----------cart ----------- */
+.img-cart {
+  float:center;
+    width:  100%;
+    height: 100%;
+   
+  
+}
+.products-cart {
+  width: 330px;
+  /* min-height: 500px; */
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.remove-cart {
+  background-color: #555;
+  color: #fff;
+  border: ne;
+  width: fit-content;
+  border-radius: 7px;
+  padding: 6px 10px;
+ margin-bottom: 10px;
+  cursor: pointer;
+;
+  transition: background-color 0.3s ease;
+}
+.remove-cart:hover {
+  background-color: #222;
+}
+/* ------------ */
+
+.remove-shop {
+  background-color: #ff6900;
+  color: #fff;
+  border: none;
+  width: fit-content;
+  border-radius: 7px;
+  padding: 6px 10px;
+ margin-bottom: 30px;
+  cursor: pointer;
+;
+  transition: background-color 0.3s ease;
+}
+.remove-shop:hover {
+  background-color: #777;
+}
+
+
+
+/* -------------------- */
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+
+ 
+}
+
+button{
+  border-radius:5px;
+}
+
