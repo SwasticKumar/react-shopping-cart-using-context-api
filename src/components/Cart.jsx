@@ -56,7 +56,7 @@ const Cart = () => {
       <div className="cart cont">
       {cart.length === 0 ? (
         // =========================
-        <div className="container-fluid p-5">
+        <div className="container-fluid" style={{padding:"100px"}}>
         <ul className="nav bg-white border-0 ">
           <li className="nav-item">
             <a className="nav-link active" style={{color:"#ff6900"}} href="#">
