@@ -53,18 +53,42 @@ const Cart = () => {
         ))}
       </div>
       {/* Ternary Operator */}
+      <div className="cart cont">
       {cart.length === 0 ? (
+        // =========================
+        <div className="container-fluid p-5">
+        <ul className="nav bg-white border-0 ">
+          <li className="nav-item">
+            <a className="nav-link active" style={{color:"#ff6900"}} href="#">
+              <span className="p-1 mx-2 rounded-3 px-2  fw-bold text-white" style={{backgroundColor:"#ff6900",border:"2px solid #ff6900"}}>1</span>
+              Shopping Cart
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-secondary" href="#">
+              <span className="border border-2 p-1 mx-2 rounded-3 px-2 fw-bold " >2</span>
+              Check Out
+            </a>
+          </li>
+          <li className="nav-item ">
+            <a className="nav-link text-secondary" href="#">
+            <span className="border border-2 p-1 mx-2 rounded-3 px-2 fw-bold text-secondary" >3</span>
+              Review
+            </a>
+          </li>
+        </ul>
+    
         <div className=" NoItems ">
+          
           <img
-            className="w-50"
-            src=" https://i01.appmifile.com/webfile/globalimg/i18n_frontend/cart/cart-empty.svg"
-            alt="Cart Empty image "
+          
+            src="https://i01.appmifile.com/webfile/globalimg/i18n_frontend/cart/cart-empty.svg" className="mt-5"
           />
           <p class="text-secondary fs-small my-5">
             Your shopping cart is empty
           </p>
           <button
-        className="remove-shop">
+        className="remove-shop mb-5">
         <Link to="/">
               Shop Now &gt;
             </Link>
@@ -72,6 +96,7 @@ const Cart = () => {
         
 
           {/**/}
+        </div>
         </div>
       ) : (
         <div class="checkout my-5">
@@ -85,6 +110,7 @@ const Cart = () => {
           <button> Checkout</button>
         </div>
       )}
+      </div>
     </div>
   );
 };
