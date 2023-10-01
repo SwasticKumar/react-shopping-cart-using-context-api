@@ -13,7 +13,7 @@
 ## Demo
 
 This project is deployed on Netlify The link is below,
-Here's a live demo of the project:[ https://shopping-cart-using-context-api-guvi.netlify.app/ [![Netlify Status](https://api.netlify.com/api/v1/badges/722c8d25-06e5-4e64-868b-70e3b7254d4f/deploy-status)](https://app.netlify.com/sites/shopping-cart-using-context-api-guvi/deploys)](https://react-shopping-cart-using-context-api.netlify.app/)
+Here's a live demo of the project: https://react-shopping-cart-using-context-api.netlify.app/![Netlify Status](https://api.netlify.com/api/v1/badges/722c8d25-06e5-4e64-868b-70e3b7254d4f/deploy-status)(https://app.netlify.com/sites/react-shopping-cart-using-context-api/deploys)]
 
 ## Features
 
