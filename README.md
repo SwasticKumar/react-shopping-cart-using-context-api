@@ -27,7 +27,7 @@ Here's a live demo of the project: https://react-shopping-cart-using-context-api
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sWASTICkUMAR/react-shopping-cart-using-context-api.git
+   git clone https://github.com/SwasticKumar/react-shopping-cart-using-context-api.git
 
    ```
 
